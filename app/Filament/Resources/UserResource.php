@@ -46,6 +46,7 @@ class UserResource extends Resource
             ->schema([
                 Livewire::make(Interference::class),
                 Livewire::make(Interference::class),
+                Livewire::make(Interference::class),
                 Section::make('break')
                     ->headerActions([
                         Action::make('throw error')
